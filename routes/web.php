@@ -14,7 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+<<<<<<< HEAD
+   //return view('welcome');
+	//return"Hello laravel";
+	return "Hello Project";
+
+=======
+    //return view('welcome');
+    return 'Hello Laravel';
+>>>>>>> 49b4e9f6e1fd6459be6d9fe22fe4419541d052bd
 });
 
 
