@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Student;
+use App\Brand;
 use Illuminate\Http\Request;
 
-class StudentController extends Controller
+class BrandController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class StudentController extends Controller
      */
     public function index()
     {
-        return 'This is student list page';
+        return 'This is brand list page';
     }
 
     /**
@@ -41,10 +41,10 @@ class StudentController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Student  $student
+     * @param  \App\Brand  $brand
      * @return \Illuminate\Http\Response
      */
-    public function show(Student $student)
+    public function show(Brand $brand)
     {
         //
     }
@@ -52,10 +52,10 @@ class StudentController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Student  $student
+     * @param  \App\Brand  $brand
      * @return \Illuminate\Http\Response
      */
-    public function edit(Student $student)
+    public function edit(Brand $brand)
     {
         //
     }
@@ -64,10 +64,10 @@ class StudentController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Student  $student
+     * @param  \App\Brand  $brand
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Student $student)
+    public function update(Request $request, Brand $brand)
     {
         //
     }
@@ -75,10 +75,10 @@ class StudentController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Student  $student
+     * @param  \App\Brand  $brand
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Student $student)
+    public function destroy(Brand $brand)
     {
         //
     }
